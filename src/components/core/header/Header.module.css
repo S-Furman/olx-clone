@@ -1,0 +1,58 @@
+header {
+    background-color: #002f34;
+    padding: 15px 0;
+}
+
+.icon {
+    width: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.systemLogo {
+    width: 100px;
+}
+
+ul {
+    list-style-type: none;
+    color: white;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+img ~ p {
+   display: inline-block;
+    margin-left: 20px;
+}
+
+img[alt^="heart"] {
+    margin: 0 40px;
+}
+
+li + img {
+    margin: 0 20px
+}
+
+li p {
+    font-size: 28px;
+    font-weight: 600;
+}
+li {
+    display: flex;
+}
+
+.addAdvertBtn {
+    font-size: 24px;
+    font-weight: 700;
+    color: #002f34;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 40px;
+}
